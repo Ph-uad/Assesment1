@@ -1,0 +1,136 @@
+:root {
+  --primary-color: #6937dc;
+  --secondary-color: #f2edfc;
+
+  --white: #fff;
+  --black: #333;
+  --light__gray: #4f4f4f;
+}
+
+.block-statement {
+  display: block;
+}
+
+.section {
+  text-align: center;
+  font-size: 1.8rem;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.apply-gratitude {
+  line-height: 3.2rem;
+  display: block;
+  padding: 0 10rem 10rem 10rem;
+  font-weight: 400;
+}
+
+.cols {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-cols {
+  padding: 0 1.5rem;
+}
+
+.rows {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0.5rem 1rem;
+}
+
+.tabheader {
+  text-align: center;
+  width: 13%;
+  font-size: 1.4rem;
+  padding-bottom: 4px;
+  border-bottom: 4px solid #e0e0e0;
+  color: #bdbdbd;
+  border-radius: 2px;
+}
+
+.current-tab{
+    border-bottom: 4px solid var(--primary-color);
+}
+
+.form-container {
+  margin-top: 4.8rem;
+  box-shadow: 0 10px 15px #e0e0e0;
+  padding: 5rem;
+  border-radius: 10px;
+}
+
+.basic-form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.label,
+.label-title {
+  display: block;
+  width: 100%;
+  text-align: left;
+  color: #828282;
+  margin-bottom: 0.5rem;
+}
+
+.label {
+  margin-bottom: 2.4rem;
+}
+
+.label-description {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.basic-input {
+  padding: 2rem;
+  border-radius: 7px;
+  width: 90%;
+  border: 1px solid var(--secondary-color);
+  margin-bottom: 0.2rem;
+  outline: none;
+}
+.form-btn {
+  width: 100%;
+  margin: 2.4rem 0;
+  box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+}
+
+.form-btn:hover {
+  transform: translateY(-0.3rem);
+  cursor: pointer;
+}
+
+.form-btn:active {
+  background-color: rgb(0 0 0 / 8%);
+}
+
+.half-width{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+
+.hide{
+  opacity: 0;
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+input{
+  color: #828282;
+  font-size: 1.5rem;
+}
+
+button{
+  border: none;
+  outline: none;
+  background-color: aqua;
+}

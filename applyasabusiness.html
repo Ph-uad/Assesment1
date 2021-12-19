@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Web design proficiency ">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Assesment</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="applyasabusiness.css">
+</head>
+
+<body>
+
+    <div class="landing">
+        <!-- navigation -->
+
+        <nav class="navigation">
+
+            <div id="logo" class="navigation-logo">
+                <a href="./index.html">
+                    <img class="navigation-img" src="./Assets/icons/white_logo-57af796889902ef9ae0307d22f218b20.png"
+                        alt="logo" srcset="">
+                </a>
+            </div>
+
+            <ul class="nav-list list">
+                <li class="nav-item "><a href="./aboutus.html" class="nav-link list-item"><span>About us</span> </a>
+                </li>
+                <li class="nav-item"><a href="./contactus.html" class="nav-link list-item"><span>Contact us</span> </a>
+                </li>
+                <li class="nav-item current"><a href="./applyasabusiness.html" class="nav-link list-item"><span>Apply as
+                            a business</span> </a></li>
+                <li class="nav-item"><a href="./createAnEvent.html" class="nav-link list-item"><span>Create an</span> Event</a></li>
+            </ul>
+
+        </nav>
+
+        <section class="section-apply apply section ">
+            <h2 class="heading-secondary">
+                Apply as a Business
+            </h2>
+            <p class="apply-gratitude">
+                <span class="block-statement">Thank you for your interest in our growing platform.</span>
+                The information we gather would be used to display your business on our platform. This is how our
+                community of users will find you. We’ll like to have you but first;
+            </p>
+
+            <div class="col form-cols">
+
+                <div class="tab rows">
+                    <div class="tabheader info-tab current-tab">
+                        <span class="tabheader-span ">Basic Information</span>
+                    </div>
+                    <div class="tabheader know-tab">
+                        <span class="tabheader-span ">Getting to know you</span>
+                    </div>
+                    <div class="tabheader paid-tab">
+                        <span class="tabheader-span ">Get Paid</span>
+                    </div>
+                    <div class="tabheader">
+                        <span class="tabheader-span security-tab ">Security</span>
+                    </div>
+                    <div class="tabheader">
+                        <span class="tabheader-span moreInfo-tab">More information</span>
+                    </div>
+                </div>
+
+                <div class="form-container">
+
+                    <form action="" class="form basic-form">
+                        <!-- FORM PAGES SORTA -->
+                        <div class="basic-information show">
+                            <label class="label" for="businessName">
+                                <span class="label-title">Business Name</span>
+                                <input type="text" id="businessName" class="businessName basic-input">
+                            </label>
+                            <label class="label" for="businessEmail">
+                                <span class="label-title">Business Email</span>
+                                <input type="text" id="businessEmail" class="businessEmail basic-input">
+                            </label>
+                            <label class="label" for="contactPhoneNumber">
+                                <span class="label-title">Contact Phone Number</span>
+                                <span class="label-description">Please provide a valid phone number to access your
+                                    account
+                                    and tools 🧰.</span>
+                                <input type="text" id="contactPhoneNumber" class="contactPhoneNumber basic-input">
+                            </label>
+                            <label class="label" for="businessAddress">
+                                <span class="label-title">Business Address</span>
+                                <input type="text" id="businessAddress" class="businessAddress basic-input">
+                            </label>
+                            <label class="label" for="designatedJumpLane">
+                                <span class="label-title">Designated Jump Lane</span>
+                                <span class="label-description">Where should customers go to jumptheline ? You can
+                                    always
+                                    change this on your JTL Business app.</span>
+                                <textarea name="designatedJumpLane" id="designatedJumpLane"
+                                    class="designatedJumpLane basic-input" rows="3"></textarea>
+                            </label>
+                            <label class="label" for="employerIdentificationNumber">
+                                <span class="label-title">Employer Identification number( <span
+                                        class="label-description">Input EIN without “-“</span>) </span>
+                                <input type="text" id="employerIdentificationNumber"
+                                    class="employerIdentificationNumber basic-input">
+                            </label>
+                        </div>
+
+                        <div class="getting-to-know-you hide">
+                            <label class="label" for="webURL">
+                                <span class="label-title">Web URL</span>
+                                <input type="url" id="webURL" class="webURL basic-input">
+                            </label>
+                            <label class="label" for="businessCategory">
+                                <span class="label-title">Business Category/ industry</span>
+                                <input type="text" id="businessCategory" class="businessCategory basic-input">
+                            </label>
+                            <label class="label" for="capacity">
+                                <span class="label-title">Capacity (Max. occupancy of your space)</span>
+                                <input type="text" id="capacity" class="capacity basic-input">
+                            </label>
+                            <label class="label" for="description">
+                                <span class="label-title">Description</span>
+                                <textarea placeholder="Please describe your business" name="description"
+                                    id="description" class="designatedJumpLane basic-input" rows="3"></textarea>
+                            </label>
+                            <label class="label" for="uploadFile">
+                                <span class="label-title">Upload Photos</span>
+                                <input
+                                    placeholder="Upload multiple pictures that best describe your business to JIL consumers."
+                                    type="file" id="uploadFile" class="uploadFile basic-input">
+                            </label>
+                        </div>
+
+                        <div class="get-paid hide">
+                            <label class="label" for="holderName">
+                                <span class="label-title">Holder Name</span>
+                                <input type="url" id="holderName" class="holderName basic-input">
+                            </label>
+                            <label class="label" for="accountNumber">
+                                <span class="label-title">Account Number </span>
+                                <input type="text" id="accountNumber" class="accountNumber basic-input">
+                            </label>
+                            <label class="label" for="routingName">
+                                <span class="label-title">Routing Name</span>
+                                <input type="text" id="routingName" class="routingName basic-input">
+                            </label>
+                            <label class="label" for="address">
+                                <span class="label-title">Routing Name</span>
+                                <input type="text" id="address" class="address basic-input">
+                            </label>
+
+                            <div class="half-width">
+                                <label class=label" for="country">
+                                    <span class="label-title">Country</span>
+                                    <select  id="country" class="country basic-input" onchange="set_country(this,country,city_state)" size="1" name="region">  
+                                    <option  value="" selected="selected"></option>
+                                    </select>  
+                                </label>
+
+                                <label class="label" for="zipCode">
+                                    <span class="label-title">Zip Code</span>
+                                    <input type="text" id="zipCode" class="zipCode basic-input">
+                                </label>
+
+                                <label class=label" for="city">
+                                    <span class="label-title">City</span>
+                                    <select id="city" class="city basic-input" name="country" size="1" disabled="disabled" onchange="set_city_state(this,city_state)"></select>  
+
+                                </label>
+
+                                <label class="label" for="state">
+                                    <span class="label-title">State</span>
+                                    <select id="state" class="state basic-input" name="city_state" size="1" disabled="disabled" onchange="print_city_state(country,this)"></select>  
+
+                                </label>
+                            </div>
+
+                        </div>
+
+                        <button class="btn basic-btn form-btn">Next</button>
+                    </form>
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer class="footer">
+            <ul class="footer-list list">
+                <li class="footer_list--item list-item">
+                    <a href="">Privacy Policy</a>
+                </li>
+                <li class="footer_list--item list-item">
+                    <a href="">Term of Use</a>
+                </li>
+            </ul>
+
+
+            <p>
+                &copy; 2021 JTL Technologies, Inc. All rights reserved
+            </p>
+
+        </footer>
+    </div>
+
+
+    <script src="./script.js"></script>
+    <script src="./country.js"></script>
+</body>
+
+</html>

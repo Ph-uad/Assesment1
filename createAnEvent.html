@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Web design proficiency ">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Assesment</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="applyasabusiness.css">
+</head>
+
+<body>
+
+    <div class="landing">
+        <!-- navigation -->
+
+        <nav class="navigation">
+
+            <div id="logo" class="navigation-logo">
+                <a href="./index.html">
+                    <img class="navigation-img" src="./Assets/icons/white_logo-57af796889902ef9ae0307d22f218b20.png"
+                        alt="logo" srcset="">
+                </a>
+            </div>
+
+            <ul class="nav-list list">
+                <li class="nav-item "><a href="./aboutus.html" class="nav-link list-item"><span>About us</span> </a>
+                </li>
+                <li class="nav-item"><a href="./contactus.html" class="nav-link list-item"><span>Contact us</span> </a>
+                </li>
+                <li class="nav-item"><a href="./applyasabusiness.html" class="nav-link list-item"><span>Apply as
+                            a business</span> </a></li>
+                <li class="nav-item current"><a href="./createAnEvent.html" class="nav-link list-item"><span>Create
+                            an</span> Event</a></li>
+            </ul>
+
+        </nav>
+
+        <section class="section-apply apply section ">
+            <h2 class="heading-secondary">
+                Create an Event
+            </h2>
+            <p class="apply-gratitude">
+                <span class="block-statement">Let’s help you create your event.</span>
+                <span class="block-statement">We’ll need some basic information.</span>
+            </p>
+
+            <div class="col form-cols">
+
+                <div class="form-container">
+
+                    <form action="" class="form basic-form">
+                        <!-- FORM PAGES SORTA -->
+                        <label class="label" for="eventName">
+                            <span class="label-title">Event Name</span>
+                            <input type="text" id="eventName" class="eventName basic-input">
+                        </label>
+                        <label class="label" for="eventType">
+                            <span class="label-title">Event Type(e.g, concert, hangout, etc)</span>
+                            <input type="text" id="eventType" class="eventType basic-input">
+                        </label>
+                        <label class="label" for="location">
+                            <span class="label-title">Address/Location</span>
+                            <input type="text" id="location" class="location basic-input">
+                        </label>
+                        <label class="label" for="designatedJumpLane">
+                            <span class="label-title">Designated Jump Lane</span>
+                            <span class="label-description">Where should customers go to jumptheline ? You can
+                                always
+                                change this on your JTL Business app.</span>
+                            <textarea name="designatedJumpLane" id="designatedJumpLane"
+                                class="designatedJumpLane basic-input" rows="3"></textarea>
+                        </label>
+                        <div class="half-width">
+                            <label class=label" for="dateTime">
+                                <span class="label-title">Date Time</span>
+                                <input type="datetime" value="" name="dateTime" id="dateTime"
+                                    class="dateTime basic-input">
+                            </label>
+
+                            <label class=label" for="endDateTime">
+                                <span class="label-title">Event End Time</span>
+                                <input type="DateTime" value="" name="endDateTime" id="endDateTime"
+                                    class="endDateTime basic-input">
+                            </label>
+
+                        </div>
+                        <label class="label" for="aboutEvent">
+                            <span class="label-title">About Event</span>
+                            <textarea name="aboutEvent" id="aboutEvent" class="aboutEvent basic-input"
+                                rows="3"></textarea>
+                        </label>
+
+                        <label class="label" for="uploadFile">
+                            <span class="label-title">Upload Photos</span>
+                            <input
+                                placeholder="Upload multiple pictures that best describe your business to JIL consumers."
+                                type="file" id="uploadFile" class="uploadFile basic-input">
+                        </label>
+
+                        <label class="label" for="">
+                            <span class="label-title">Let’s get some organizer information.</span>
+                        </label>
+
+                        <label class="label" for="organizerName">
+                            <span class="label-title">Organizer Name</span>
+                            <input type="text" id="organizerName" class="organizerName basic-input">
+                        </label>
+
+                        <label class="label" for="aboutOrganizer">
+                            <span class="label-title">About Organizer</span>
+                            <textarea name="aboutOrganizer" id="aboutOrganizer" class="aboutOrganizer basic-input"
+                                rows="3"></textarea>
+                        </label>
+
+                        <label class="label" for="humplLinePrice">
+                            <span class="label-title">Set your JumpTheLine price</span>
+                            <input type="number" value="0" name="humplLinePrice" id="humplLinePrice"
+                                class="humplLinePrice basic-input" rows="3"></input>
+                        </label>
+
+                        <label class="label" for="phoneNumber">
+                            <span class="label-title"> Phone Number</span>
+                            <span class="label-description">Please provide a valid phone number to access your account
+                                and tools 🧰.</span>
+                            <input type="text" id="phoneNumber" class="phoneNumber basic-input">
+                        </label>
+
+                        <label class="label" for="">
+                            <span class="label-title">Please choose your plan.</span>
+                        </label>
+
+                        <div class="row">
+                            <div class="mb-4 col-12 col-sm-6">
+                                <div
+                                    class="d-flex flex-column align-items-center h-100 rounded px-2 border false form-group">
+                                    <img class="iconPlan"
+                                        src="/dist/icon_thumbsup-c16c0333387e3de33bb3ad1157eb5e87.png"><label
+                                        class="form-control-label text-center">Flat fee</label><label
+                                        class="form-control-label text-center">Your customers pay the fee. $3.99 per
+                                        pass.</label></div>
+                            </div>
+                            <div class="mb-4 col-12 col-sm-6">
+                                <div
+                                    class="d-flex flex-column align-items-center h-100 rounded px-2 border border-primary form-group">
+                                    <img class="iconPlan"
+                                        src="/dist/icon_percentage-b96c05b5e8639ad4ee2dbb65f0b304df.png"><label
+                                        class="form-control-label text-center">Take on the cost.</label><label
+                                        class="form-control-label text-center">You pay 10% per pass.</label><label
+                                        class="form-control-label text-center">Contact us for reduced rates.</label>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <button class="btn basic-btn form-btn">Publish your event</button>
+                    </form>
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer class="footer">
+            <ul class="footer-list list">
+                <li class="footer_list--item list-item">
+                    <a href="">Privacy Policy</a>
+                </li>
+                <li class="footer_list--item list-item">
+                    <a href="">Term of Use</a>
+                </li>
+            </ul>
+
+
+            <p>
+                &copy; 2021 JTL Technologies, Inc. All rights reserved
+            </p>
+
+        </footer>
+    </div>
+
+
+    <script src="./script.js"></script>
+    <script src="./country.js"></script>
+</body>
+
+</html>
