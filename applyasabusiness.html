@@ -18,9 +18,7 @@
 
 <body>
 
-    <div class="landing">
-        <!-- navigation -->
-
+    <header class="header">
         <nav class="navigation">
 
             <div id="logo" class="navigation-logo">
@@ -37,12 +35,14 @@
                 </li>
                 <li class="nav-item current"><a href="./applyasabusiness.html" class="nav-link list-item"><span>Apply as
                             a business</span> </a></li>
-                <li class="nav-item"><a href="./createAnEvent.html" class="nav-link list-item"><span>Create an</span> Event</a></li>
+                <li class="nav-item"><a href="./createAnEvent.html" class="nav-link list-item"><span>Create an</span>
+                        Event</a></li>
             </ul>
 
         </nav>
+    </header>
 
-        <section class="section-apply apply section ">
+    <main class="section-apply apply section ">
             <h2 class="heading-secondary">
                 Apply as a Business
             </h2>
@@ -159,9 +159,10 @@
                             <div class="half-width">
                                 <label class=label" for="country">
                                     <span class="label-title">Country</span>
-                                    <select  id="country" class="country basic-input" onchange="set_country(this,country,city_state)" size="1" name="region">  
-                                    <option  value="" selected="selected"></option>
-                                    </select>  
+                                    <select id="country" class="country basic-input"
+                                        onchange="set_country(this,country,city_state)" size="1" name="region">
+                                        <option value="" selected="selected"></option>
+                                    </select>
                                 </label>
 
                                 <label class="label" for="zipCode">
@@ -171,13 +172,15 @@
 
                                 <label class=label" for="city">
                                     <span class="label-title">City</span>
-                                    <select id="city" class="city basic-input" name="country" size="1" disabled="disabled" onchange="set_city_state(this,city_state)"></select>  
+                                    <select id="city" class="city basic-input" name="country" size="1"
+                                        disabled="disabled" onchange="set_city_state(this,city_state)"></select>
 
                                 </label>
 
                                 <label class="label" for="state">
                                     <span class="label-title">State</span>
-                                    <select id="state" class="state basic-input" name="city_state" size="1" disabled="disabled" onchange="print_city_state(country,this)"></select>  
+                                    <select id="state" class="state basic-input" name="city_state" size="1"
+                                        disabled="disabled" onchange="print_city_state(country,this)"></select>
 
                                 </label>
                             </div>
@@ -187,27 +190,29 @@
                         <button class="btn basic-btn form-btn">Next</button>
                     </form>
                 </div>
-
             </div>
-
-        </section>
-
-        <footer class="footer">
-            <ul class="footer-list list">
-                <li class="footer_list--item list-item">
-                    <a href="">Privacy Policy</a>
-                </li>
-                <li class="footer_list--item list-item">
-                    <a href="">Term of Use</a>
-                </li>
-            </ul>
+    </main>
 
 
-            <p>
-                &copy; 2021 JTL Technologies, Inc. All rights reserved
-            </p>
 
-        </footer>
+
+
+    <footer class="footer">
+        <ul class="footer-list list">
+            <li class="footer_list--item list-item">
+                <a href="">Privacy Policy</a>
+            </li>
+            <li class="footer_list--item list-item">
+                <a href="">Term of Use</a>
+            </li>
+        </ul>
+
+
+        <p>
+            &copy; 2021 JTL Technologies, Inc. All rights reserved
+        </p>
+
+    </footer>
     </div>
 
 

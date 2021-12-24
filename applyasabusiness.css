@@ -42,13 +42,16 @@
 }
 
 .tabheader {
-  text-align: center;
-  width: 13%;
-  font-size: 1.4rem;
-  padding-bottom: 4px;
+  padding: 5px 10px;
   border-bottom: 4px solid #e0e0e0;
+  width: 18%;
+  text-align: center;
+}
+.tabheader-span{
   color: #bdbdbd;
-  border-radius: 2px;
+  font-size: 14px;
+  line-height: 21px;
+  overflow-wrap: break-word;
 }
 
 .current-tab{
@@ -117,12 +120,6 @@
 }
 
 
-.hide{
-  opacity: 0;
-  width: 0;
-  height: 0;
-  display: none;
-}
 
 input{
   color: #828282;
@@ -133,4 +130,17 @@ button{
   border: none;
   outline: none;
   background-color: aqua;
+}
+
+@media (max-width:1430px){
+  .tabheader {
+ font-size: .8rem;
+  } 
+}
+
+@media (max-width:900px){
+  .tabheader {
+    font-size: .5rem;
+    
+     } 
 }
